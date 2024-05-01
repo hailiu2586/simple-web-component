@@ -1,0 +1,37 @@
+{
+  "name": "@hailiu/simple-web-component",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/fast-element": "^1.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "@microsoft/fast-react-wrapper": "^0.3.24",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-serve": "^1.1.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-transform-tagged-template": "^0.0.3",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  }
+}
